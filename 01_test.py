@@ -14,4 +14,6 @@ print(SynthDefs)
 
 p2 >> pads([1,3], dur=[8], oct=4)
 
+p1.stop()
+
 Clock.clear()
